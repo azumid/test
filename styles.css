@@ -1,0 +1,178 @@
+/* リセットCSS */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+   font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+
+/* styles.css */
+/* フォーム全体を中央寄せにする */
+form {
+ width: 50%; /* フォームの幅を適宜調整してください */
+ margin: 30px;
+}
+
+/* ラベルと入力欄の配置を整える */
+form label {
+ display: block; /* ラベルをブロック要素に変更して、上下に配置 */
+ width: 120px; /* ラベルの幅を適宜調整してください */
+ float: left; /* ラベルを左寄せにする */
+ margin-right: 10px; /* ラベルと入力欄の間隔を調整 */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+ width: 200px; /* 入力欄の幅を適宜調整してください */
+}
+
+h1{
+  font-size: 2em;
+  margin:30px
+}
+
+/* メールアドレス入力欄を上下に揃える */
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+ margin-bottom: 10px;
+}
+
+ol {
+list-style-type: none;
+padding: 0px;
+}
+
+/* 送信ボタンを左寄せにする */
+form input[type="submit"] {
+ clear: both; /* フロートをクリアして次の要素を下に配置 */
+}
+.left{
+  float:left;
+}
+.right{
+  padding:0px 0px 0px 300px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button {
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.index-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
